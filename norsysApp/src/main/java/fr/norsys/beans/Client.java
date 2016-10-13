@@ -5,6 +5,7 @@ import java.io.Serializable;
 public class Client implements Serializable {
 
     private Long   id;
+    private String test;
     private String nom;
     private String prenom;
     private String adresseDeLivraison;
